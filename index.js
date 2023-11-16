@@ -36,7 +36,7 @@ let map;
             service.textSearch(request, (results, status) => {
               if (status === google.maps.places.PlacesServiceStatus.OK) {
                 const filteredResults = results.filter(
-                  place => place.rating > 4.5 && place.user_ratings_total > 70
+                  place => place.rating >= 4.5 && place.user_ratings_total >= 70
                 );
 
                 if (filteredResults.length > 0) {
