@@ -55,3 +55,13 @@ div input, div textarea{
   padding: 10px;
   border-radius: 50px;
 }
+
+ul li{
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+input::placeholder{
+  font-size: 12px;
+  opacity: 50%;
+}
