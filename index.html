@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Outbound Fidelizi</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+
+    <header>
+      <div class="texto-header">
+        <h1>Outbound</h1>
+      </div>
+    </header>
+
+    <div class="cidade">
+      <label for="cityInput">Informe a cidade:</label>
+      <input type="text" id="cityInput" />
+    </div>
+
+    <div class="Palavra-chave">
+      <label for="keywordsInput">Palavras-chave:</label>
+      <input type="text" id="keywordsInput" />
+    </div>
+
+    <div class="container">
+      <button id="searchButton">Buscar</button>
+    </div>
+
+    <div id="map"></div>
+    <ul id="listaEstabelecimentos"></ul>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoaWouMrqFLpk6dT6uVEkL2W8bYfYIZ94&callback=initMap&libraries=places&v=weekly"></script>
+  </body>
+</html>

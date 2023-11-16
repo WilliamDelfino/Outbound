@@ -1,0 +1,57 @@
+*{
+  font-family: Roboto, Helvetica;
+}
+
+#map {
+    height: 400px;
+  }
+
+#searchButton {
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #e6e6fa;
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #f7f3f6;
+  border-color: #ffffff;
+  color: purple;
+  transition: 0.8s;
+  border-color: purple;
+}
+
+div.container{
+  padding: 10px;
+  align-items: center;
+}
+
+#searchButton:hover {
+
+  background-color: purple;
+  color: white;
+
+}
+
+.texto-header{
+  position: relative;
+  text-align: center;
+}
+
+.cidade{
+  margin-bottom: 20px;
+}
+
+.Palavra-chave{
+  margin-bottom: 10px;
+}
+
+div input, div textarea{
+  outline: unset;
+  border: 1px solid purple;
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+}
